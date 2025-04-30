@@ -1,3 +1,22 @@
+/* Add these at the TOP of your existing App.css */
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Then keep ALL your existing CSS exactly as is below this point */
+
+
+
+
 :root {
   --primary: #4f46e5;
   --primary-dark: #4338ca;
